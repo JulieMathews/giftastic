@@ -1,0 +1,75 @@
+body {
+	text-align: center;
+    text-transform: uppercase;
+    background: radial-gradient(#00ADEF, #D6DF23, #EF5285)
+}
+
+.container {
+    margin: 2em;
+    font-size: 2em;
+}
+
+#show-form {
+    margin: 1em;
+}
+
+h1 {
+    color: black;
+    font-size: 4em;
+    text-shadow: 2px 1px #00ADEF;
+    margin: 2em;
+    padding: 2em;
+}
+
+form {
+    color: black;
+    text-shadow: 2px 1px #EF5285;
+}
+
+.gifs {
+    display: inline;
+}
+
+#gifsView {
+    display: inline;
+    margin-bottom: 3em;
+}
+
+button {
+	background: white;
+	margin: 5px;
+    color: black;
+    padding: 1em;
+}
+    
+a:link,
+a:visited,
+a:hover {
+    text-decoration: none;
+    color: #dddddd;
+}
+
+.foot-link {
+    align-content: left;
+}
+
+.navbar-footer {
+    position: absolute;
+    float: left;
+}
+
+.fixed-bottom {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    display: block;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -ms-flex-align: center;
+    align-items: center;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    padding: .5rem 1rem;
+}
