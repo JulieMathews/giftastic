@@ -1,7 +1,7 @@
 body {
 	text-align: center;
     text-transform: uppercase;
-    background: radial-gradient(#00ADEF, #D6DF23, #EF5285)
+    background-color: rgb(189, 228, 179)
 }
 
 .container {
@@ -35,11 +35,16 @@ form {
     margin-bottom: 3em;
 }
 
-button {
+img {
+    width: 20%;
+}
+
+button,
+#show-input {
 	background: white;
 	margin: 5px;
     color: black;
-    padding: 1em;
+    padding: .8em;
 }
     
 a:link,
