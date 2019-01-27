@@ -30,7 +30,7 @@ $("#addShow").on("click", function(){
 // function to display gifs
 function displayGifs(){
     var show = $(this).attr("data-name");
-    var queryURL = "https://api.giphy.com/v1/gifs/search?q=" + show + "&api_key=R72jPaSGwCR1fBaEHIfxF17FGSEAd7yc" + "&limit=5&offset=0&rating=0&lang=en";
+    var queryURL = "https://api.giphy.com/v1/gifs/search?q=" + show + "&api_key=R72jPaSGwCR1fBaEHIfxF17FGSEAd7yc" + "&limit=10&offset=0&rating=0&lang=en";
 
     
 		// creates ajax call
